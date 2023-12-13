@@ -1,3 +1,4 @@
+![logo](https://github.com/shridhartulshi/shridhartulshi/blob/main/index.html)
 - 👋 Hi, I’m @shridhartulshi
 - I am a passionate software engineer.
 
