@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="header">
+        <p>We Are Here To Buy Any Kind Of Scrap</p>
+    </div>
+
+    <div class="logo">
+        <div class="syi_logo">
+            <a href="index.html"><img src="img/logo.jpeg" alt=""></a>
+        </div>
+
+        <div class="phone">
+            <img src="img/telephone.svg" alt="" width="25px">
+            <div class="phone_no">
+                <p> 9373864943</p>
+            </div>
+        </div>
+
+        <div class="email">
+
+            <img src="img/envelope-at.svg" alt="" width="25px">
+            <div class="email">
+                <p>ScrapyardIndia@gmail.com
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="navbar_container">
+        <ul class="navbar_items">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="in-news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <div class="navbar_btn">
+               <a href="Popup Registration Form in HTML CSS.html"> <button class="bts"> <i class="bi bi-plus-lg"></i> PickUp Request</button></a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="topnav">
+        <a href="index.html" class="active"><img src="./img/logo.jpeg" alt="" width="25%" height="60px"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="in-news.html">News</a>
+            <a href="contact.html">Contact</a>
+            <a href="aboutus.html">About us</a>
+            <a href="help">Help</a>
+            <a href="blog.html">Blog</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <!-- slider -->
+    <!-- slider -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/scrapyardbanner.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/scrapyardbanner.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/scrapyardbanner.jpg" alt="">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- CARDS -->
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="img/Household scrap.jpg" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>Household Scrap</b></h4>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/industry scrap.jpg" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>Industry Scrap</b></h4>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img src="img/institute scrap.jpg" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>Institute Scrap</b></h4>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/society scrap.webp" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>Society Scrap</b></h4>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/shops scrap.jpg" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>Shop Scrap</b></h4>
+
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/ELV scrap.jpg" alt="Avatar" width="100%">
+            <div class="container">
+                <h4><b>ELV Scrap</b></h4>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- WCSI CARDS -->
+    <div class="WCSI">
+        <div class="wcsi_heading">
+            <h1>Why Choose Scrap Yard India</h1>
+
+        </div>
+
+        <div class="WCSI_cards">
+
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card1 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+                        Professional Scrapping Services</h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card2 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+                        Transparency in Weight and Pricing</h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card3 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+                        Seamless Pickup & Transportation</h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card4 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+
+                        Compliant Facilities
+                    </h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card5 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+
+                        End to End Solutions</h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+            <div class="wcsi_card">
+                <div class="wcsi_card_img">
+                    <img src="img/wcsi card6 img.png" alt="" width="100%">
+                </div>
+                <div class="wcsi_card_content">
+                    <h4>
+                        Circular Economy
+                    </h4>
+                    <p>Professional executives with a customer-first approach and services</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="outersection">
+        <div class="innersection">
+            <p>Looking to set up a registered vehicle scrapping Facility in india?</p>
+
+
+        </div>
+        <button class="innersection_button">
+            Set up a call</button>
+
+        <div class="processlogo">
+            <img src="img/PROCESS-LOGO.png" alt="" width="70%">
+        </div>
+    </div>
+    <!-- POVS -->
+    <div class="POVS">
+        <div class="povs_heading">
+            <h1>Process Of Vehicle Scrapping</h1>
+            <p class="povs_sub_heading">
+                Our processes are crafted to provide you seamless service and an incredible experience whenever you
+                recycle your vehicle with us
+            </p>
+        </div>
+        <div class="povs_cards">
+
+            <div class="povs_card_even">
+
+                <div class="povs_img">
+                    <img src="img/povs 1.png" alt="">
+                </div>
+                <h4>Inspection and Valuation</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur sapiente possimus alias
+                    soluta
+                    quos eligendi ipsum repudiandae sit voluptates, tempore quo debitis earum. Hic dolorem tempore vitae
+                    voluptatem quas</p>
+            </div>
+            <div class="povs_card_odd">
+                <div class="povs_img">
+                    <img src="img/povs2.png" alt="">
+                </div>
+                <h4>Documentation and Pick Up</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur sapiente possimus alias soluta
+                quos eligendi ipsum repudiandae sit voluptates, tempore quo debitis earum. Hic dolorem tempore vitae
+                voluptatem quas.
+            </div>
+            <div class="povs_card_even">
+                <div class="povs_img">
+                    <img src="img/povs3.png" alt="">
+
+                </div>
+                <h4>Certificate of Deposit</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur sapiente possimus alias soluta
+                quos eligendi ipsum repudiandae sit voluptates, tempore quo debitis earum. Hic dolorem tempore vitae
+                voluptatem quas.
+            </div>
+            <div class="povs_card_odd">
+
+                <div class="povs_img">
+                    <img src="img/povs4.png" alt="">
+                </div>
+                <h4>De-Registeration of Vehicle Number</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur sapiente possimus alias soluta
+                quos eligendi ipsum repudiandae sit voluptates, tempore quo debitis earum. Hic dolorem tempore vitae
+                voluptatem quas.
+            </div>
+            <div class="povs_card_even">
+
+                <div class="povs_img">
+                    <img src="img/povs5.png" alt="">
+                </div>
+                <h4>Certificate of vehicle Scrapping</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum pariatur sapiente possimus alias soluta
+                quos eligendi ipsum repudiandae sit voluptates, tempore quo debitis earum. Hic dolorem tempore vitae
+                voluptatem quas.
+            </div>
+
+        </div>
+    </div>
+    <div class="AOCS">
+        <div class="AOCS_heading">
+            <h1>Advantages of Choosing SYI</h1>
+        </div>
+        <br><br>
+        <div class="Aocs_row1">
+            <div class="aocs_img">
+                <img src="img/Soac_img1.png" alt="">
+            </div>
+            <div class="aocs_content">
+                <h3>PLATFORM TO LOCATE REGISTERED VEHICLE SCRAP FACILITY (RVSF/AVSF)</h3>
+                <p>First time in India Scrap Yard India brings you platform to locate and connect with Government
+                    authorized vehicle scrapping facility in India.</p>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="Aocs_row2">
+
+            <div class="aocs_content">
+                <h3>
+                    WE ENSURE TRANSPARENCY IN SCRAP VEHICLE HANDLING
+
+                </h3>
+                <p>
+                    All the paperwork is done online where you can access the real time status of scrapping. All the
+                    records of the vehicle right from the receipt to final scrapping are maintained. We ensure that your
+                    vehicle is scrapped and not used illegally.
+
+                </p>
+            </div>
+            <div class="aocs_img">
+                <img src="img/aocs img2.png" alt="" width="80%">
+
+            </div>
+
+        </div>
+        <br><br><br>
+        <div class="Aocs_row3">
+            <div class="aocs_img">
+                <img src="img/aocs img3.png" alt="" width="80%">
+            </div>
+            <div class="aocs_content">
+                <h3>WE PROMOTE SAFE OPERATING PRACTICE</h3>
+                <p>Scrap Yard India takes concerted efforts to formalize collection centers, scrap yards or processing centers. With world-class equipment for dismantling ELVs, we cater scientific dismantling of end-of-life vehicles. Use of advanced depollution equipment not only minimizes manual handling of hazardous material but also helps to maintain an environmentally compliant scrap processing center.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="section">
+            <div class="col1">
+                <h4>Useful Links</h4>
+                <p>Home</p>
+                 <a href="aboutus.html">
+                    <p>About us</p>
+                 </a> 
+                <p>Products</p>
+                <p>Partner us</p>
+                <a href="contact.html">
+                    <p>Contact us</p>
+                </a>
+                <p>FAQ's</p>
+                 <a href="in-news.html"> <p>In news</p></a>
+                <p>Terms of use</p>
+                  <a href="blog.html">
+                    <p>Blog</p>
+                  </a>
+                <p>Privacy policy</p>
+            </div>
+            <div class="col2">
+                <h4>Quick Links</h4>
+                <p>Global partners</p>
+                <p>Sell your scrap</p>
+                <p>Full consultation</p>
+                <a href="partnerwithus.html"> <p>SYI management solutions</p></a>
+                <p>SYI partnership solutions</p>
+                <p>SYI partnership program</p>
+                <p>Enquiry Form</p>
+
+            </div>
+            <div class="col3">
+                <h4>Product Category</h4>
+                <p>Depollution</p>
+                <p>Derisking</p>
+                <p>Dismantling</p>
+                <p>Turnkey Project</p>
+                <p>Balers</p>
+                <p>Shear Balers</p>
+                <p>Shredder and Hammer Mill</p>
+                <p>Inclined Shear</p>
+
+            </div>
+            <div class="col4">
+                <h4>Office Address</h4>
+                <p>F2, IIIrd Floor, Decent Enclave,
+                    Opp. More Store, Darga Road, Shahnoorwadi, Aurangabad (Maharshtra), India. -431005.</p>
+
+
+            </div>
+            <br>
+            <div class="col5">
+                <h4>Newsletter</h4>
+                <p>Subscribe to Blogs and Other Updates.</p>
+                <div class="searchbar">
+                    <input type="email" name="" id="" placeholder="Your Email here" class="ftr_searchbar">
+                    <div>
+                        <button type="submit" class="ftr_submit">
+                            <i class="bi bi-chat-left-text-fill"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="content_ftr">
+
+                </div>
+                <br>
+                <p class="followus">Follow US</p>
+                <div class="ftr_logos">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-linkedin"></i>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
