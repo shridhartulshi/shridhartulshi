@@ -1,0 +1,668 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header {
+    text-align: center;
+    background-color: #2975a9;
+    color: white;
+    padding: 20px;
+
+}
+
+.header p {
+    font-weight: bold;
+}
+
+
+.logo 
+{
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+}
+
+.syi_logo img 
+{
+    width: 15%;
+    padding-top: 10px;
+}
+
+.phone {
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 0;
+    font-size: large;
+    display: flex;
+
+}
+.phone_no
+{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.phone_no p
+{
+    font-size: larger;
+    color: black;
+    padding-left: 3px;
+}
+
+
+.email {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 0;
+    display: flex;
+}
+
+.email p {
+    font-size: larger;
+    color: black;
+    padding-left: 3px;
+}
+
+.mobile_btn {
+    display: none;
+}
+.topnav
+{
+    display: none;
+}
+.navbar_items 
+{
+    display: flex;
+    list-style-type: none;
+    margin-top: 60px;
+    background-color: #2975a9;
+    padding: 20px;
+
+}
+
+.navbar_items li a {
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+/*  */
+li a:hover {
+    background-color: white;
+    color: orange;
+    height: 60px;
+
+}
+
+.navbar_container .navbar_items .navbar_btn .bts {
+
+
+    background-color: #2975a9;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 500px;
+
+}
+
+.navbar_container .navbar_items .navbar_btn .bts :hover {
+    background-color: white;
+    color: black;
+}
+/* Our Blog */
+.blog-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.blog-container{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.blog-container .blog-wrap{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 0 auto;
+    height: auto !important;
+}
+.blog-wrap .blog{
+    border: 1px solid #e9e9e9;
+}
+.blog-img a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.blog-img img{
+    width: 100%;
+    height: 225px;
+}
+.blog-heading{
+    
+    margin: 1rem 0 1rem;
+    padding-left: .5rem;
+}
+.blog-heading a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .5px;
+
+}
+.blog-heading a:hover, a:focus{
+    color: #333333;
+}
+.blog-info{
+    padding-left: .5rem;
+   
+}
+.blog-info ul{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: #4a4a4a;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    list-style: none;
+}
+.blog-info ul li a{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+.blog-info ul li.dash::after{
+    content: '-';
+    padding: 0 6px;
+    font-weight: 600;
+   
+}
+.blog-data{
+    line-height: 1.3;
+    margin-top: 0.625rem;
+    margin-bottom: 20px;
+}
+.blog-data p{
+    padding-left: .5rem;
+    font-size: 15px;
+    letter-spacing: .5px;
+    color: #4a4a4a;
+}
+.blog-continue{
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+   
+    
+}
+.blog-continue a{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1.2;
+    padding-bottom: 0.19rem;
+    border-bottom: 1px solid;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333333;
+}
+.blog-continue a i{
+    margin-left: 0.5rem;
+}
+.blog-continue a:hover{
+    color: #333333;
+}
+.blog-page-num ul{
+    display: inline-block;
+    width: 87.5%;
+    margin: 0;
+    padding-bottom: 50px;
+    list-style: none;
+    text-align: right;
+    
+
+}
+.blog-page-num ul li{
+    display: inline-block;
+}
+.page-num span,
+.page-num i
+{
+   
+    display: inline-block;
+    min-width: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #555;
+    border: 1px solid #e9e9e9;
+    font-size: 18px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 2px;
+    box-sizing: content-box;
+}
+.page-num span:hover,
+.page-num i:hover{
+    background-color: #f8f8f8;
+   
+}
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 80px 40px;
+
+
+}
+
+.section {
+
+    display: flex;
+}
+/* COL1 */
+.col1 h4 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.col1 {
+
+    margin-left: 80px;
+    font-size: 14px;
+}
+.col1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.col1 a:hover {
+    color: #F9D342;
+}
+
+/* col2 */
+.col2 h4 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.col2 {
+    margin-left: 80px;
+    font-size: 14px;
+    color: white;
+}
+.col2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.col2 a:hover {
+    color: #F9D342;
+}
+
+/* col3 */
+.col3 h4 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+
+}
+
+.col3 {
+    margin-left: 60px;
+    font-size: 14px;
+    color: white;
+    width: 180px;
+}
+
+/* col4 */
+.col4 h4 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.col4 {
+    margin-left: 60px;
+    font-size: 14px;
+    color: white;
+    width: 180px;
+}
+
+/* col5 */
+.col5 h4 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.col5 {
+    margin-left: 60px;
+    font-size: 14px;
+    color: white;
+    width: 280px;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.ftr_searchbar {
+    border-radius: 25px 0px 0px 25px;
+    border: 0px;
+    padding-left: 10px;
+    width: 120px;
+    font-size: small;
+}
+
+.ftr_submit {
+    width: 30px;
+    background-color: #F9D342;
+    height: 30px;
+    border-radius: 0px 25px 25px 0px;
+    border: 0px;
+}
+
+.followus {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 3;
+}
+
+.ftr_logos {
+    font-size: 25px;
+    word-spacing: 15px;
+}
+.lt_ftr_logos {
+    font-size: 25px;
+    word-spacing: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .header {
+        padding: 15px;
+
+    }
+
+    .header p {
+        font-size: large;
+    }
+
+    .logo {
+        /* margin-top: 20px;
+        margin-left: 50px; */
+        display: none;
+
+
+    }
+
+    .syi_logo img {
+        width: 45%;
+    }
+
+    .navbar_items button {
+        display: none;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: gray;
+        position: relative;
+        display: block;
+      }
+      
+      /* Hide the links inside the navigation menu (except for logo/home) */
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      /* Style navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      /* Style the hamburger menu */
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        margin-top: 15px
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active link (or home/logo) */
+      .active {
+        background-color: whitesmoke !important;
+        color: white;
+      }
+
+    .phone 
+    {
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .mobile_btn {
+        display: block;
+
+    }
+
+    .mobile_btn button 
+    {
+
+        margin-right: 20px;
+        height: 90%;
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 10px;
+        font-size: large;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+  
+
+    .navbar_container 
+    {
+        display: none;
+    }
+    
+
+    .container 
+    {
+        padding-top: 10px;
+    }
+
+    /* Footer */
+
+    .footer {
+        display: none;
+    }
+    /* Our Blog */
+    .blog-container .blog-wrap{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-page-num ul{
+       
+        width: 90%;
+    }
+
+   
+
+
+
+    /* FOOTER */
+
+    .footer {
+        background-color: black;
+        color: #fff;
+        display: block;
+
+    }
+
+    .section {
+        display: block;
+    }
+
+    .col1 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+    
+    .col1 h4 {
+        padding-bottom: 20px;
+    
+    }
+    
+    .col2 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+    
+    .col2 h4 {
+        padding-bottom: 20px;
+    }
+    
+    .col3 
+    {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+    
+    .col3 h4 {
+        padding-bottom: 20px;
+    }
+    
+    .col4 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+    
+    .col4 h4 {
+        padding-bottom: 20px;
+    }
+    
+    .col5 {
+        padding: 5px 10px;
+        margin-left: 5px;
+        font-size: medium;
+    }
+
+    .col5 h4 {
+        padding-bottom: 20px;
+    }
+
+    .searchbar {
+        display: flex;
+    }
+
+    .ftr_searchbar {
+        border-radius: 25px 0px 0px 25px;
+        border: 0px;
+        padding-left: 10px;
+        width: 200px;
+        font-size: small;
+    }
+
+    .ftr_submit {
+        width: 30px;
+        background-color: #F9D342;
+        height: 30px;
+        border-radius: 0px 25px 25px 0px;
+        border: 0px;
+    }
+
+    .followus {
+        color: #ffffff;
+        font-family: "Poppins", Sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 3;
+    }
+
+    .ftr_logos {
+        font-size: 25px;
+        word-spacing: 15px;
+    }
+
+}
